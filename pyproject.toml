@@ -1,0 +1,22 @@
+[project]
+name = "pygates"
+version = "0.1.0"
+description = "Simple logic gates library"
+authors = [{ name = "Mohammad Aljumaah" }]
+dependencies = []
+
+[project.urls]
+Homepage = "https://mohammad-aljumaah.me"
+Source = "https://github.com/mohammad-aljumaah/pygates"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov"
+]
