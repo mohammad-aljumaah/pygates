@@ -40,25 +40,44 @@ The library is designed with a focus on:
 
 ## Installation
 
+### Install from PyPI (recommended)
+
+```bash
+pip install pygates-lib
+```
+
+---
+
+### Install from GitHub (latest development version)
+
+```bash
+pip install git+https://github.com/mohammad-aljumaah/pygates.git
+```
+
+---
+
+### Development Installation
+
 Clone the repository:
 
-```bash id="u7x2p1"
+```bash
 git clone https://github.com/mohammad-aljumaah/pygates.git
 cd pygates
 ```
 
 Create and activate a virtual environment:
 
-```bash id="m3p8k2"
+```bash
 python -m venv .venv
 .venv\Scripts\activate
 ```
 
 Install in editable mode:
 
-```bash id="q9t4z6"
+```bash
 pip install -e .
 ```
+
 
 ---
 
