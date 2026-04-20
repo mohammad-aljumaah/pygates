@@ -10,7 +10,7 @@ Thank you for your interest in contributing.
 2. Clone your fork:
 
 ```bash
-git clone https://github.com/mohammad-aljumaah/pygates.git
+git clone https://github.com/mohammad-aljumaah/pygates-lib.git
 cd pygates
 ```
 
